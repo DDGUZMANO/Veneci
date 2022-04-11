@@ -9,7 +9,7 @@
     background-color: aquamarine;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 0.5fr 1fr 0.2fr;
+    grid-template-rows: 1fr 5fr 0.6fr;
     justify-items: center;
     grid-template-areas: 
     
@@ -121,6 +121,7 @@ td{
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
+    align-content: flex-end;
 }
 .footer section{
     width: 33%;
@@ -143,6 +144,7 @@ td{
 /* Estilos para el main de diseños */
 
 .mainDisenos{
+    grid-area: listado;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -766,8 +768,8 @@ h5{
 .body{
     width: auto;
     display: grid;
-    grid-template-columns: 750px;
-    grid-template-rows: 0.1fr 0.8fr 0.05fr;
+    grid-template-columns: 768px;
+    grid-template-rows: 0fr 10fr 0fr;
 
 }
 .navegacion{
@@ -800,13 +802,18 @@ h5{
     padding: 10px 0px;
 
 }
+.mainDisenos{
+    height: 3500px;
+}
 .colores{
     display: flex;
     flex-direction: column;
+    height: 1000px;
 }
 .nailArt{
     display: flex;
     flex-direction: column;
+    height: 1000px;
 }
 
 a:hover{
@@ -845,10 +852,6 @@ a:hover{
         grid-template-columns: 100%;
         grid-template-rows: 0.1fr 0.5fr 0.05fr;
         }
-    .navegacion{
-
-
-    }
 
     .navegacion ul{
         display: flex;
@@ -871,12 +874,4 @@ a:hover{
     .footer section{
         width: 100%;
     }
-    
-
-
-
-
-
-
-
 }
