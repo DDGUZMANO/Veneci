@@ -253,10 +253,6 @@ a:hover{
         grid-template-columns: 100%;
         grid-template-rows: 0.1fr 0.5fr 0.05fr;
         }
-    .navegacion{
-
-
-    }
 
     .navegacion ul{
         display: flex;
@@ -272,11 +268,4 @@ a:hover{
         width: 100%;
     }
     
-
-
-
-
-
-
-
 }
