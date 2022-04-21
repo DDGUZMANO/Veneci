@@ -1,0 +1,809 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.body{
+    
+    background-color: aquamarine;
+    
+} 
+
+.header{
+    grid-area: header;
+    background-image: url(../multimedia/anana.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    text-align: center;
+    
+}
+h1{
+    color: #721F7D;
+    font-size: 75px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.quedicen{
+    color: #721F7D;
+    font-size: 30px;
+    text-align: center;
+}
+.navegacion{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 70%;
+    padding: 0;
+    font-size: 15px;
+    color: #721F7D;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+} 
+.pisandomenu{
+    padding: 0;
+}
+.container-fluid header nav ul li a {
+    color: #721F7D !important;
+}
+
+
+.navegacion ul{
+    list-style-type: none;
+    padding: 2px 6px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    border: #721F7D;
+    background-color: aquamarine;
+    width: 100%;
+    li{
+    color: #721F7D;
+}
+}
+.navegacion a{
+    
+    text-decoration: none;
+    color: #721F7D;
+    font-size: 20px;
+}
+li a:hover{
+    font-size: 26px;
+    transition: 0.1s;
+}
+
+.inicio{
+    color: #721F7D;
+    font-size: 45px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.menu li{
+    
+    padding: 10px 50px;
+    border-style: solid;
+    border-width: 1px 3px;
+    border-radius: 3px;
+    background-color: aquamarine;
+
+}
+.logo{
+
+    width: 250px;
+    border-radius: 50%;
+    &:hover{
+    width: 350px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+}
+.main{
+    grid-area: listado;
+}
+.clientes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.clientes div{
+    background-image: url(../multimedia/anana.jpg);
+    color: #721F7D;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 15px;       
+}
+.dicen{
+    font-style: italic;
+}
+@media screen and (max-width: 768px){
+    .clientes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        div{
+        margin: 20px;
+    }
+}
+}
+
+h3{
+    color: #721F7D;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px;
+    text-align: center;
+}
+.listado{
+    padding: 15px;
+    margin: 10px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #721F7D;
+    text-align: left;
+}
+th{
+    padding: 5px 30px;
+}
+td{
+    padding: 5px 30px;
+}
+.precios{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.footer{
+    grid-area: footer;
+    background-color: black;
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: flex-end;
+}
+.footer section{
+    width: 33%;
+    text-align: center;
+    img{
+    width: 50px;
+    border-radius: 50px;
+}
+}
+.logoins{
+    height: 50px;
+}
+.logotwt{
+    height: 50px;
+}
+.logoface{
+    height: 50px;
+}
+
+/* Estilos para el main de diseños */
+
+.mainDisenos{
+    grid-area: listado;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.contenedor{
+    display: flex;
+    flex-direction: row;
+} 
+
+h5{
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.frases{
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.unas{
+    width: 150px;
+    height: 250px;
+    border-style: solid;
+    border-color: #721F7D;
+    border-width: 1px 3px;
+    margin: 0px;
+    border-radius: 3%;
+}
+.colores{
+    display: flex;
+    flex-direction: row;
+    
+}
+.nailArt{
+    display: flex;
+    flex-direction: row;
+}
+.contenedor1{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.contenedor1 figure{
+    position: relative;
+    height: 350px;
+    width: 250px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15 px 25px rgba(0,0,0,0.50);
+}
+
+.contenedor1 figure img{
+    width: 100%;
+    height: 100%;
+    transition:all 500ms ease-out;
+}
+
+.contenedor1 figure .capa1{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(104,103,123,0.6);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+
+}
+.contenedor1 figure:hover > .capa1{
+    opacity: 1;
+    visibility: visible;
+    h5{
+    margin-top: 70px;
+    margin-bottom: 15px;
+}
+}
+
+.contenedor1 figure .capa1 h5{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #fff;
+    text-decoration: solid;
+    font-weight: 400;
+    margin-bottom: 120px;
+    transition: all 500ms ease-out;
+    margin-top: 30px;
+}
+.contenedor2{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.contenedor2 figure{
+    position: relative;
+    height: 350px;
+    width: 250px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15 px 25px rgba(0,0,0,0.50);
+}
+
+.contenedor2 figure img{
+    width: 100%;
+    height: 100%;
+    transition:all 500ms ease-out;
+}
+
+.contenedor2 figure .capa2{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(104,103,123,0.6);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+
+}
+.contenedor2 figure:hover > .capa2{
+    opacity: 1;
+    visibility: visible;
+    h5{
+    margin-top: 70px;
+    margin-bottom: 15px;
+}
+}
+
+.contenedor2 figure .capa2 h5{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #fff;
+    text-decoration: solid;
+    font-weight: 400;
+    margin-bottom: 120px;
+    transition: all 500ms ease-out;
+    margin-top: 30px;
+}
+.contenedor3{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.contenedor3 figure{
+    position: relative;
+    height: 350px;
+    width: 250px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15 px 25px rgba(0,0,0,0.50);
+}
+
+.contenedor3 figure img{
+    width: 100%;
+    height: 100%;
+    transition:all 500ms ease-out;
+}
+
+.contenedor3 figure .capa3{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(104,103,123,0.6);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+
+}
+.contenedor3 figure:hover > .capa3{
+    opacity: 1;
+    visibility: visible;
+    h5{
+    margin-top: 70px;
+    margin-bottom: 15px;
+}
+}
+
+.contenedor3 figure .capa3 h5{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #fff;
+    text-decoration: solid;
+    font-weight: 400;
+    margin-bottom: 120px;
+    transition: all 500ms ease-out;
+    margin-top: 30px;
+}
+.contenedor4{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.contenedor4 figure{
+    position: relative;
+    height: 350px;
+    width: 250px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15 px 25px rgba(0,0,0,0.50);
+}
+
+.contenedor4 figure img{
+    width: 100%;
+    height: 100%;
+    transition:all 500ms ease-out;
+}
+
+.contenedor4 figure .capa4{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(104,103,123,0.6);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+
+}
+.contenedor4 figure:hover > .capa4{
+    opacity: 1;
+    visibility: visible;
+h5{
+    margin-top: 70px;
+    margin-bottom: 15px;
+}
+}
+
+.contenedor4 figure .capa4 h5{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #fff;
+    text-decoration: solid;
+    font-weight: 400;
+    margin-bottom: 120px;
+    transition: all 500ms ease-out;
+    margin-top: 30px;
+}
+.contenedor5{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.contenedor5 figure{
+    position: relative;
+    height: 350px;
+    width: 250px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15 px 25px rgba(0,0,0,0.50);
+}
+
+.contenedor5 figure img{
+    width: 100%;
+    height: 100%;
+    transition:all 500ms ease-out;
+}
+
+.contenedor5 figure .capa5{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(104,103,123,0.6);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+
+}
+.contenedor5 figure:hover > .capa5{
+    opacity: 1;
+    visibility: visible;
+    h5{
+    margin-top: 70px;
+    margin-bottom: 15px;
+}
+}
+
+.contenedor5 figure .capa5 h5{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #fff;
+    text-decoration: solid;
+    font-weight: 400;
+    margin-bottom: 120px;
+    transition: all 500ms ease-out;
+    margin-top: 30px;
+}
+.contenedor6{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.contenedor6 figure{
+    position: relative;
+    height: 350px;
+    width: 250px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15 px 25px rgba(0,0,0,0.50);
+}
+
+.contenedor6 figure img{
+    width: 100%;
+    height: 100%;
+    transition:all 500ms ease-out;
+}
+
+.contenedor6 figure .capa6{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(104,103,123,0.6);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+
+}
+.contenedor6 figure:hover > .capa6{
+    opacity: 1;
+    visibility: visible;
+    h5{
+    margin-top: 70px;
+    margin-bottom: 15px;
+}
+}
+
+.contenedor6 figure .capa6 h5{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #fff;
+    text-decoration: solid;
+    font-weight: 400;
+    margin-bottom: 120px;
+    transition: all 500ms ease-out;
+    margin-top: 30px;
+}
+.contenedor7{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.contenedor7 figure{
+    position: relative;
+    height: 350px;
+    width: 250px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15 px 25px rgba(0,0,0,0.50);
+}
+
+.contenedor7 figure img{
+    width: 100%;
+    height: 100%;
+    transition:all 500ms ease-out;
+}
+
+.contenedor7 figure .capa7{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(104,103,123,0.6);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+
+}
+.contenedor7 figure:hover > .capa7{
+    opacity: 1;
+    visibility: visible;
+    h5{
+    margin-top: 70px;
+    margin-bottom: 15px;
+}
+}
+
+.contenedor7 figure .capa7 h5{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #fff;
+    text-decoration: solid;
+    font-weight: 400;
+    margin-bottom: 120px;
+    transition: all 500ms ease-out;
+    margin-top: 30px;
+}
+.contenedor8{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.contenedor8 figure{
+    position: relative;
+    height: 350px;
+    width: 250px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15 px 25px rgba(0,0,0,0.50);
+}
+
+.contenedor8 figure img{
+    width: 100%;
+    height: 100%;
+    transition:all 500ms ease-out;
+}
+
+.contenedor8 figure .capa8{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(104,103,123,0.6);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+
+}
+.contenedor8 figure:hover > .capa8{
+    opacity: 1;
+    visibility: visible;
+h5{
+    margin-top: 70px;
+    margin-bottom: 15px;
+}
+}
+
+.contenedor8 figure .capa8 h5{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #fff;
+    text-decoration: solid;
+    font-weight: 400;
+    margin-bottom: 120px;
+    transition: all 500ms ease-out;
+    margin-top: 30px;
+}
+.contenedor8 figure:hover > .capa8{
+    opacity: 1;
+    visibility: visible;
+}
+.contenedor8 figure:hover > .capa8 h5{
+    margin-top: 70px;
+    margin-bottom: 15px;
+}
+
+.contenedor8 figure .capa8 h5{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #fff;
+    text-decoration: solid;
+    font-weight: 400;
+    margin-bottom: 120px;
+    transition: all 500ms ease-out;
+    margin-top: 30px;
+}
+.contenedor9{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.contenedor9 figure{
+    position: relative;
+    height: 350px;
+    width: 250px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15 px 25px rgba(0,0,0,0.50);
+}
+
+.contenedor9 figure img{
+    width: 100%;
+    height: 100%;
+    transition:all 500ms ease-out;
+}
+
+.contenedor9 figure .capa9{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(104,103,123,0.6);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+
+}
+.contenedor9 figure:hover > .capa9{
+    opacity: 1;
+    visibility: visible;
+h5{
+    margin-top: 70px;
+    margin-bottom: 15px;
+}
+}
+.contenedor9 figure .capa9 h5{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #fff;
+    text-decoration: solid;
+    font-weight: 400;
+    margin-bottom: 120px;
+    transition: all 500ms ease-out;
+    margin-top: 30px;
+}
+.contenedor10{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.contenedor10 figure{
+    position: relative;
+    height: 350px;
+    width: 250px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15 px 25px rgba(0,0,0,0.50);
+}
+
+.contenedor10 figure img{
+    width: 100%;
+    height: 100%;
+    transition:all 500ms ease-out;
+}
+
+.contenedor10 figure .capa10{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(104,103,123,0.6);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+
+}
+.contenedor10 figure:hover > .capa10{
+    opacity: 1;
+    visibility: visible;
+    h5{
+    margin-top: 70px;
+    margin-bottom: 15px;
+}
+}
+
+.contenedor10 figure .capa10 h5{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #fff;
+    text-decoration: solid;
+    font-weight: 400;
+    margin-bottom: 120px;
+    transition: all 500ms ease-out;
+    margin-top: 30px;
+}
+
+/* Estilos para la seccion de agenda de turnos */
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    color: #721F7D;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    padding: 20px;
+    div{
+    margin: 5px;
+}
+}
+.casillas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    label{
+    padding-right: 100px;
+}
+}
