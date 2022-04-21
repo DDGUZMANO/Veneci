@@ -55,23 +55,7 @@ h1{
 .container-fluid header nav ul li a {
     color: #721F7D !important;
 }
-/* @media screen and (max-width: 992px){
-    .probando{
-        display: flex;
-        flex-direction: column;
-    }
-    .navegacion ul{
-        list-style-type: none;
-        padding: 2px 6px;
-        display: flex;
-        flex-flow: column wrap;
-        justify-content: space-around;
-        border: #721F7D;
-        background-color: aquamarine;
-        width: 100%;
-        
-    }
-} */
+
 
 .navegacion ul{
     list-style-type: none;
