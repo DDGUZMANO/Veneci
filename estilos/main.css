@@ -1,173 +1,4 @@
 @charset "UTF-8";
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
-
-.body {
-  background-color: aquamarine; }
-
-.header {
-  grid-area: header;
-  background-image: url(../multimedia/anana.jpg);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 30px;
-  text-align: center; }
-
-h1 {
-  color: #721F7D;
-  font-size: 75px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
-
-.quedicen {
-  color: #721F7D;
-  font-size: 30px;
-  text-align: center; }
-
-.navegacion {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  width: 70%;
-  padding: 0;
-  font-size: 15px;
-  color: #721F7D;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
-
-.pisandomenu {
-  padding: 0; }
-
-.container-fluid header nav ul li a {
-  color: #721F7D !important; }
-
-.navegacion ul {
-  list-style-type: none;
-  padding: 2px 6px;
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: space-around;
-  border: #721F7D;
-  background-color: aquamarine;
-  width: 100%; }
-  .navegacion ul li {
-    color: #721F7D; }
-
-.navegacion a {
-  text-decoration: none;
-  color: #721F7D;
-  font-size: 20px; }
-
-li a:hover {
-  font-size: 26px;
-  transition: 0.1s; }
-
-.inicio {
-  color: #721F7D;
-  font-size: 45px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
-
-.menu li {
-  padding: 10px 50px;
-  border-style: solid;
-  border-width: 1px 3px;
-  border-radius: 3px;
-  background-color: aquamarine; }
-
-.logo {
-  width: 250px;
-  border-radius: 50%; }
-  .logo:hover {
-    width: 350px;
-    transition: 0.3s;
-    cursor: pointer; }
-
-.main {
-  grid-area: listado; }
-
-.clientes {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-evenly;
-  margin-top: 100px;
-  margin-bottom: 100px; }
-
-.clientes div {
-  background-image: url(../multimedia/anana.jpg);
-  color: #721F7D;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  border-radius: 15px; }
-
-.dicen {
-  font-style: italic; }
-
-@media screen and (max-width: 768px) {
-  .clientes {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 20px;
-    margin-top: 20px; }
-    .clientes div {
-      margin: 20px; } }
-
-h3 {
-  color: #721F7D;
-  font-size: 30px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  padding: 10px;
-  text-align: center; }
-
-.listado {
-  padding: 15px;
-  margin: 10px;
-  font-size: 20px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  color: #721F7D;
-  text-align: left; }
-
-th {
-  padding: 5px 30px; }
-
-td {
-  padding: 5px 30px; }
-
-.precios {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: center; }
-
-.footer {
-  grid-area: footer;
-  background-color: black;
-  color: #fff;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-  align-content: flex-end; }
-
-.footer section {
-  width: 33%;
-  text-align: center; }
-  .footer section img {
-    width: 50px;
-    border-radius: 50px; }
-
-.logoins {
-  height: 50px; }
-
-.logotwt {
-  height: 50px; }
-
-.logoface {
-  height: 50px; }
-
 /* Estilos para el main de diseños */
 .mainDisenos {
   grid-area: listado;
@@ -730,3 +561,172 @@ h5 {
   justify-content: space-between; }
   .casillas label {
     padding-right: 100px; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+
+.body {
+  background-color: aquamarine; }
+
+.header {
+  grid-area: header;
+  background-image: url(../multimedia/anana.jpg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  text-align: center; }
+
+h1 {
+  color: #721F7D;
+  font-size: 75px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+
+.quedicen {
+  color: #721F7D;
+  font-size: 30px;
+  text-align: center; }
+
+.navegacion {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 70%;
+  padding: 0;
+  font-size: 15px;
+  color: #721F7D;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+
+.pisandomenu {
+  padding: 0; }
+
+.container-fluid header nav ul li a {
+  color: #721F7D !important; }
+
+.navegacion ul {
+  list-style-type: none;
+  padding: 2px 6px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+  border: #721F7D;
+  background-color: aquamarine;
+  width: 100%; }
+  .navegacion ul li {
+    color: #721F7D; }
+
+.navegacion a {
+  text-decoration: none;
+  color: #721F7D;
+  font-size: 20px; }
+
+li a:hover {
+  font-size: 26px;
+  transition: 0.1s; }
+
+.inicio {
+  color: #721F7D;
+  font-size: 45px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+
+.menu li {
+  padding: 10px 50px;
+  border-style: solid;
+  border-width: 1px 3px;
+  border-radius: 3px;
+  background-color: aquamarine; }
+
+.logo {
+  width: 250px;
+  border-radius: 50%; }
+  .logo:hover {
+    width: 350px;
+    transition: 0.3s;
+    cursor: pointer; }
+
+.main {
+  grid-area: listado; }
+
+.clientes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  margin-top: 100px;
+  margin-bottom: 100px; }
+
+.clientes div {
+  background-image: url(../multimedia/anana.jpg);
+  color: #721F7D;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border-radius: 15px; }
+
+.dicen {
+  font-style: italic; }
+
+@media screen and (max-width: 768px) {
+  .clientes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 20px; }
+    .clientes div {
+      margin: 20px; } }
+
+h3 {
+  color: #721F7D;
+  font-size: 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: 10px;
+  text-align: center; }
+
+.listado {
+  padding: 15px;
+  margin: 10px;
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #721F7D;
+  text-align: left; }
+
+th {
+  padding: 5px 30px; }
+
+td {
+  padding: 5px 30px; }
+
+.precios {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center; }
+
+.footer {
+  grid-area: footer;
+  background-color: black;
+  color: #fff;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-content: flex-end; }
+
+.footer section {
+  width: 33%;
+  text-align: center; }
+  .footer section img {
+    width: 50px;
+    border-radius: 50px; }
+
+.logoins {
+  height: 50px; }
+
+.logotwt {
+  height: 50px; }
+
+.logoface {
+  height: 50px; }
