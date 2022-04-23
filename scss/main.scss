@@ -9,6 +9,17 @@
     box-sizing: border-box;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+$comunes:(
+    imgfondo: url(../multimedia/anana.jpg),
+    30px: 30px
+);
+
+@mixin flexbox ($flex, $direction){
+    display: $flex;
+    flex-direction: $direction;
+}
+
 .body{
     
     background-color: $colorFondo;
@@ -17,9 +28,10 @@
 
 .header{
     grid-area: header;
-    background-image: url(../multimedia/anana.jpg);
-    display: flex;
-    flex-direction: column;
+    background-image: map-get($map: $comunes , $key: imgfondo);
+    // display: flex;
+    // flex-direction: column;
+    @include flexbox(flex, column)
     align-items: center;
     padding: 30px;
     text-align: center;
@@ -32,12 +44,13 @@ h1{
 }
 .quedicen{
     color: $colorLetras;
-    font-size: 30px;
+    font-size: map-get($map: $comunes, $key: 30px);
     text-align: center;
 }
 .navegacion{
-    display: flex;
-    flex-direction: row;
+    // display: flex;
+    // flex-direction: row;
+    @include flexbox(flex, row)
     justify-content: center;
     width: 70%;
     padding: 0;
@@ -56,8 +69,10 @@ h1{
 .navegacion ul{
     list-style-type: none;
     padding: 2px 6px;
-    display: flex;
-    flex-flow: column wrap;
+    // display: flex;
+    // flex-direction: column;
+    @include flexbox(flex, column)
+    flex-wrap: wrap;
     justify-content: space-around;
     border: $colorLetras;
     background-color: $colorFondo;
@@ -105,15 +120,16 @@ li a:hover{
     grid-area: listado;
 }
 .clientes{
-    display: flex;
-    flex-direction: row;
+    // display: flex;
+    // flex-direction: row;
+    @include flexbox(flex, row)
     flex-wrap: nowrap;
     justify-content: space-evenly;
     margin-top: 100px;
     margin-bottom: 100px;
 }
 .clientes div{
-    background-image: url(../multimedia/anana.jpg);
+    background-image: map-get($map: $comunes, $key: imgfondo );
     color: $colorLetras;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     border-radius: 15px;       
@@ -123,8 +139,9 @@ li a:hover{
 }
 @media screen and (max-width: 768px){
     .clientes{
-        display: flex;
-        flex-direction: column;
+        // display: flex;
+        // flex-direction: column;
+        @include flexbox(flex, column)
         align-items: center;
         margin-bottom: 20px;
         margin-top: 20px;
@@ -136,7 +153,7 @@ li a:hover{
 
 h3{
     color: $colorLetras;
-    font-size: 30px;
+    font-size: map-get($map: $comunes, $key: 30px);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding: 10px;
     text-align: center;
@@ -156,8 +173,9 @@ td{
     padding: 5px 30px;
 }
 .precios{
-    display: flex;
-    flex-direction: row;
+    // display: flex;
+    // flex-direction: row;
+    @include flexbox(flex, row)
     flex-wrap: nowrap;
     justify-content: center;
 }
@@ -167,8 +185,9 @@ td{
     background-color: black;
     color: #fff;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    display: flex;
-    flex-direction: row;
+    // display: flex;
+    // flex-direction: row;
+    @include flexbox(flex, row)
     flex-wrap: nowrap;
     justify-content: space-between;
     align-content: flex-end;
@@ -183,11 +202,14 @@ td{
 }
 .logoins{
     height: 50px;
+    width: 50px;
 }
 .logotwt{
     height: 50px;
+    width: 50px;
 }
 .logoface{
     height: 50px;
+    width: 50px;
 }
 
