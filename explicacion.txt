@@ -1,0 +1,36 @@
+Para este trabajo ordené los encabezados usando <h1> para escribir el nombre de la empresa y ubicarlo
+arriba de todo en cada una de las paginas. luego apliqué <h2> como subtítulo, indicando de que se trataba
+la página, especificamente en la que estamos. En el footer agregué <h5> para redes sociales, nosotros y 
+derechos reservados.
+
+KEYWORDS: 
+
+Index: Nails, belleza, uñas, prolijas, urquíza, semipermanente, colores, largas, esmalte, spa.
+Tutoriales: tutorial, aprender, video, destreza, diseño, diseñar, multimedia, reproducir, práctica, uñas, bonitas.
+Diseños: diseñar, uñas, bonitas, fotos, imágenes, flores, colores, ojo, arte, nailart.
+Capacitaciones: cursos, clases, enseñar, aprender, estudiar, uñas, diseñar, spa, capacitarse, capacitación.
+Agenda: turno, cita, agendar, agenda, consulta, inquietud, calendario, disponible, disponibilidad, hora, día, fecha.
+
+TíTULOS:
+
+Index: Veneci Spa, belleza y bienestar.
+Tutoriales: Tutoriales de diseños hermosos.
+Diseños: Losmas hermosos diseños.
+Capacitaciones: Aprende con nosotros.
+Agenda: Agenda tu turno.
+
+META DESCRIPTION:
+
+Inicio; Bienvenidos a Veneci Spa, acá no solo nos encargamos de tu belleza y bienestar, también podemos entretener
+te de una manera interactiva y enseñarte con nuestros cursos.
+
+Tutoriales: Acá en Veneci Spa queremos que puedas ver el proceso de realizado de los mas hermosos diseños en manos 
+y pies.
+
+Diseños: Nuestra prioridad es hacer que nuestros clientes se sientan únicosy para ello, tenemos los
+diseños más originales.
+
+Capacitaciones: Aprende con nosotros las técnicas más actualizadas, para que crezcas en elambiente de spa, 
+de nuestra mano.
+
+Agenda: Agenda tu turno de una manera fácil y sencilla.

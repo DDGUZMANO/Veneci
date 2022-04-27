@@ -3,6 +3,7 @@
 @import "variables";
 
 
+
 *{
     margin: 0;
     padding: 0;
@@ -137,6 +138,10 @@ li a:hover{
 .dicen{
     font-style: italic;
 }
+
+.casillas{
+    width: 500px;
+}
 @media screen and (max-width: 768px){
     .clientes{
         // display: flex;
@@ -150,6 +155,7 @@ li a:hover{
     }
 }
 }
+
 
 h3{
     color: $colorLetras;
@@ -199,6 +205,19 @@ td{
     width: 50px;
     border-radius: 50px;
 }
+}
+@media screen and (max-width: 500px){
+    .casillas{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer section{
+        width: 100%;
+    }
 }
 .logoins{
     height: 50px;
