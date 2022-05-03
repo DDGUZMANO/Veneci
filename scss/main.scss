@@ -38,6 +38,15 @@ $comunes:(
     text-align: center;
     
 }
+.laidea{
+    width: 80%;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: $colorLetras;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 20px;
+}
 h1{
     color: $colorLetras;
     font-size: 75px;
@@ -90,7 +99,7 @@ h1{
 }
 li a:hover{
     font-size: 26px;
-    transition: 0.1s;
+    transition: 1s;
 }
 
 .inicio{
@@ -113,12 +122,14 @@ li a:hover{
     border-radius: 50%;
     &:hover{
     width: 350px;
-    transition: 0.3s;
+    transition: 1s;
     cursor: pointer;
 }
 }
 .main{
     grid-area: listado;
+    display: flex;
+    justify-content: center;
 }
 .clientes{
     // display: flex;
