@@ -250,7 +250,7 @@ td{
     img{
     width: 50px;
     border-radius: 50px;
-}
+    }
 }
 @media screen and (max-width: 500px){
     .laidea{   
@@ -289,11 +289,23 @@ td{
         height: 50px;
             width: 50px;
     }
-.logoface{
+    .logoface{
     height: 50px;
     width: 50px;
+    }
+    .fotosAgenda{
+    margin-top: 50px;
+    }
+    .estilo-formulario{
+    width: 100%;
+    }
+    .fotosAgenda img{
+    width: 100%;
+    padding: 15px;
+    border-radius: 25%;
+    }
 }
-}
+
 .videoTutoriales{
     display: flex;
     justify-content: center;
@@ -301,4 +313,15 @@ td{
 .videoTutoriales video{
     padding: 25px;
     height: 850px;
+}
+.titulo-curso{
+    color: $colorLetras;
+}
+@media screen and (max-width: 380px){
+    .videoTutoriales video{
+        padding-top: 0px;
+        padding-bottom: 10px;
+        margin-top: -100px;
+        height: 850px;
+    }
 }
